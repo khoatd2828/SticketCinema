@@ -1,0 +1,64 @@
+/* CSS cho modal */
+.modal-content {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .modal-header {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .modal-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center; /* Căn giữa tiêu đề */
+    margin: auto !important;
+  }
+  
+  .modal-body {
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  .modal-footer {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .modal-footer button {
+    background-color: #6dee6d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal-footer button:hover {
+    background-color: #5bc75b;
+  }
+  
+  /* Định dạng vị trí của modal */
+.ReactModal__Overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.ReactModal__Content {
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    transform: none;
+    margin: auto;
+}

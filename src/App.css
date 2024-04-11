@@ -1,0 +1,103 @@
+body {
+  background-image: url(../public/DatVe/video27_dat_ve_phim/bgmovie.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2 {
+  font-size: 60px;
+}
+
+@font-face {
+  font-family: 'fontGame';
+  src: url('../font/Pony.ttf');
+}
+
+.bookingMovie{
+  font-family: 'fontGame';
+}
+
+
+.ghe{
+  border: 3px solid orange;
+  width: 42px !important;
+  height: 35px;
+  font-size: 10px;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  border-radius: 5px;
+  cursor: pointer;
+  line-height: 31px;
+  background-color: #fff;
+}
+
+.ghe_first {
+  width: 45px;
+  height: 35px;
+  font-size: 18px;
+  margin-left: 2%;
+  margin-bottom: 1%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.rowNumber{
+  /* font-size: 25px; */
+  width: 35.5px !important;
+  height: 35px;
+  background: none;
+  border:none;
+  margin-left: 2%;
+  margin-bottom: 1%;
+  font-size: 18px;
+  color: white;
+  
+}
+.firstChar{
+  color: white;
+  font-size: 19px;
+}
+
+.screen{
+  border-bottom: 50px solid rgb(255, 159, 95);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 100;
+  width:100%;
+  filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.5));
+  font-size: 25px;
+  color: #fff;
+}
+
+
+.gheDuocChon {
+  border: 3px solid red;
+
+  background: red;
+  color: #000;
+
+  cursor: no-drop !important;
+  border-radius: 5px;
+  width: 42px;
+  height: 35px;
+}
+
+.gheDangChon {
+  background: #6dee6d;
+  border: 3px solid rgb(109, 238, 109);
+  color: #000;
+
+  cursor: pointer;
+  border-radius: 5px;
+  width: 42px;
+  height: 35px;
+
+}
+.table>:not(caption)>*>* {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.bg-danger {
+  background-color: red; /* Thay đổi màu nền tùy thuộc vào giá trị của backgroundColor */
+}
+
